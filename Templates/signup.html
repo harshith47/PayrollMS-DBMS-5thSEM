@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Add Employee</title>
+
+   
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../static/css/signup.css" rel="stylesheet">
+    <script src="../static/js/jquery-1.11.2.js"></script>
+    <script src="../static/js/signUp.js"></script>
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="showAdminhome">Back</a></li>
+            
+          </ul>
+        </nav>
+        <h3 class="text-muted">Admin Home</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Add Employee</h1>
+        <form class="form-signin">
+        <div class="form-group" >
+
+        <label for="inputFName" class="sr-only">First Name</label>
+        <input type="Fname" name="inputFName" id="inputFName" class="form-control" placeholder="First Name" required autofocus>
+        <label for="inputMName" class="sr-only">Middle Name</label>
+        <input type="Mname" name="inputMName" id="inputMName" class="form-control" placeholder="Middle Name" required autofocus>
+        <label for="inputLName" class="sr-only">Last Name</label>
+        <input type="Lname" name="inputLName" id="inputLName" class="form-control" placeholder="Last Name" required autofocus>
+
+        </div>
+
+        <div class="form-group" >
+
+        <label for="inputDesignation" class="sr-only">Designation</label>
+        <input type="Designation" name="inputDesignation" id="inputDesignation" class="form-control" placeholder="Designation" required autofocus>
+        <label for="inputID" class="sr-only">Employee ID</label>
+        <input type="ID" name="inputID" id="inputID" class="form-control" placeholder="Employee ID" required autofocus>
+        
+        </div>
+
+
+        <div class="form-group" >
+
+        <label for="inputDOB" class="sr-only">Date of Birth</label>
+        <input type="DOB" name="inputDOB" id="inputDOB" class="form-control" placeholder="YYYY-MM-DD" required autofocus>
+        <label for="inputContact" class="sr-only">Contact Number</label>
+        <input type="Contact" name="inputContact" id="inputContact " class="form-control" placeholder="Ph. Number" required autofocus>
+        
+        </div>
+
+        <div class="form-group" >
+
+        <label for="inputBasic" class="sr-only">Basic Salary</label>
+        <input type="basic" name="inputBasic" id="inputBasic " class="form-control" placeholder="Basic Salary" required autofocus>
+        <label for="inputOvertime" class="sr-only">Overtime</label>
+        <input type="Overtime" name="inputOvertime" id="inputOvertime" class="form-control" placeholder="Overtime(hours)" required autofocus>
+        <label for="inputVPF" class="sr-only">Voluntary Provisional Fund</label>
+        <input type="VPF" name="inputVPF" id="inputVPF" class="form-control" placeholder="VPF(%)" required autofocus>
+        <label for="inputMedico" class="sr-only">Medical Compensation</label>
+        <input type="Medico" name="inputMedico" id="inputMedico" class="form-control" placeholder="Medical Compensation" required autofocus>
+        <label for="inputLeavepen" class="sr-only">Leave Penalty</label>
+        <input type="Leavepen" name="inputLeavepen" id="inputLeavepen" class="form-control" placeholder="Number of Leave Days" required autofocus>
+        <label for="inputInsurance" class="sr-only">Insurance</label>
+        <input type="Insurance" name="inputInsurance" id="inputInsurance" class="form-control" placeholder="Insurance(INR)" required autofocus>    
+
+        </div>
+
+        <div class="form-group" >
+
+        <label for="inputPeer" class="sr-only">Peer Rating</label>
+        <input type="Peer" name="inputPeer" id="inputPeer" class="form-control" placeholder="Rating by Peers (max 10)" required autofocus>
+        <label for="inputManager" class="sr-only">Manager Rating</label>
+        <input type="Manager" name="inputManager" id="inputManager" class="form-control" placeholder="Rating by Manager (max 10)" required autofocus>
+        
+        </div>
+
+        <label for="inputEmail" class="sr-only">username</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Pick a Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+        
+        <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Submit</button>
+      </form>
+      </div>
+
+      
+
+      <footer class="footer">
+        <p>&copy; Company 2017</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
+
